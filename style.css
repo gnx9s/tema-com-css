@@ -1,22 +1,21 @@
 body {
     display: flex;
-    background: linear-gradient(30deg, rgb(252, 165, 241) 1%, rgb(181, 255, 255) 100.5%);
+    background: linear-gradient(45deg, #e0c3fc 1%, #8ec5fc 100%);
 }
 
 main#container {
     text-align: center;
-    border: 3px solid black;
+    border: solid #cadefc;
     border-radius: 12px;
-    box-shadow: -7px 7px 0 0 #c3bef0;
+    box-shadow: 8px 8px 0 0 #c3bef0;
     background-color: #cadefc;
     padding: 50px;
-    align-items: stretch;
 }
 
 h1.titulo {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    text-decoration: underline;
+    font-size: 32px;
+    font-weight: 900;
 }
 
 p.frase {
