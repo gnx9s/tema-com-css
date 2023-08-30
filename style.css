@@ -1,7 +1,7 @@
 body {
     display: flex;
     background: linear-gradient(45deg, #e0c3fc 1%, #8ec5fc 100%);
-    transition: .6s;
+    transition: 0.4s;
 }
 
 .trocarmodo {
@@ -14,7 +14,6 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    translate: 0 5px;
 }
 
 ::selection {
@@ -29,7 +28,6 @@ main#container {
     box-shadow: 8px 8px 0 0 #c3bef0;
     background-color: #cadefc;
     padding: 50px;
-    transition: .6s;
 }
 
 h1.titulo {
@@ -49,12 +47,11 @@ p.autor {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body.modonoturno .trocarmodo {
+body.modonoturno, .trocarmodo {
     background-color: #444;
 }
 
 body.modonoturno, main#container.modonoturno {
     background-color: #142d4c;
     color: white;
-    transition: 0.6s;
 }
